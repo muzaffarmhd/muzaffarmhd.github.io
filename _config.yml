@@ -16,7 +16,7 @@ timezone:
 
 title: Muzaffar # the main title
 
-tagline: CS-AI Undergraduate Student - Batch of 2026 # it will display as the subtitle
+tagline: Computer Science Student # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
