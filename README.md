@@ -1,1 +1,1 @@
-this is a simple page built using gemini ai studio
+this is a simple blog page built using gemini ai studio
