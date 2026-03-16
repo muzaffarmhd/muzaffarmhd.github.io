@@ -25,3 +25,9 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+.devcontainer/*
+.jekyll-cache/*
+dist/*
+.*jekyll
+.ruby-version

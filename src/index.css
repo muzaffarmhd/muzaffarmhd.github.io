@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;700&family=Press+Start+2P&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-pixel: "Lucida Console", Monaco, monospace, "Noto Sans Telugu";
+  --font-title: "Press Start 2P", "Noto Sans Telugu", monospace;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111;
+  font-family: "Lucida Console", Monaco, monospace, "Noto Sans Telugu";
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+/* Markdown styles */
+.markdown-body h1 {
+  font-family: "Press Start 2P", "Noto Sans Telugu", monospace;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+.markdown-body h2 {
+  font-family: "Press Start 2P", "Noto Sans Telugu", monospace;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
+.markdown-body p {
+  margin-bottom: 1.5rem;
+}
+.markdown-body a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.markdown-body a:hover {
+  background-color: #111;
+  color: #ffffff;
+}
+.markdown-body ul {
+  list-style-type: square;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.markdown-body li {
+  margin-bottom: 0.5rem;
+}
+.markdown-body blockquote {
+  border-left: 4px solid #111;
+  padding-left: 1rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  opacity: 0.8;
+}
+.markdown-body code {
+  background-color: rgba(0,0,0,0.1);
+  padding: 0.2rem 0.4rem;
+  font-family: "Lucida Console", Monaco, monospace, "Noto Sans Telugu";
+}
+.markdown-body pre {
+  background-color: #111;
+  color: #ffffff;
+  padding: 1.5rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border: 2px solid #111;
+}
+.markdown-body pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}

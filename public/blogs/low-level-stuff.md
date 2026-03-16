@@ -1,0 +1,1 @@
+Framebuffer -> Plane -> CRTC -> Encoder -> Connector -> Monitor
