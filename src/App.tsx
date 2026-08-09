@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
 import BlogList from './pages/BlogList';
 import BlogPost from './pages/BlogPost';
 
@@ -15,7 +14,6 @@ function AppContent() {
         <nav className="flex justify-end items-center mb-12 pb-4">
         <div className="flex gap-4 md:gap-8 text-lg md:text-xl font-title text-sm">
           <Link to="/" className="hover:bg-black hover:text-white px-2 py-1 lowercase transition-colors">Home</Link>
-          <Link to="/about" className="hover:bg-black hover:text-white px-2 py-1 lowercase transition-colors">About</Link>
           <Link to="/blog" className="hover:bg-black hover:text-white px-2 py-1 lowercase transition-colors">Blog</Link>
         </div>
         </nav>
@@ -24,7 +22,6 @@ function AppContent() {
         <main className={`flex-grow ${isHomePage ? 'flex' : ''}`}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
             <Route path="/blog" element={<BlogList />} />
             <Route path="/blog/:id" element={<BlogPost />} />
           </Routes>
